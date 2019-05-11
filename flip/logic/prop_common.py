@@ -1,10 +1,17 @@
-"""
-Propositional rules used in all sources: Kaye, Huth&Ryan, and Bornat
-Supplement this module with more rules from prop_classic (Kaye), 
- prop_derived (H&R), or prop_constructive (Bornat)
-Rules here based on Kaye ch 6, defn. 6.3, p. 65, impl. from defn. 6.22, p. 76
-See also Bornat, table 3.10, p. 43 and Huth&Ryan, Fig. 1.2, p. 27
-"""
+ #Copyright (C) 2009, 2010, 2011 Jonathan Jacky
+ 
+ # This program is free software: you can redistribute it and/or modify
+ # it under the terms of the GNU General Public License as published by
+ # the Free Software Foundation, either version 3 of the License, or
+ # (at your option) any later version.
+
+ # This program is distributed in the hope that it will be useful,
+ # but WITHOUT ANY WARRANTY; without even the implied warranty of
+ # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ # GNU General Public License for more details.
+
+ # You should have received a copy of the GNU General Public License
+ # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 from formula import Letter, PrefixLogical, InfixLogical, FormulaPlaceholder
 

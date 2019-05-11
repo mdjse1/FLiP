@@ -1,11 +1,18 @@
-"""
-Logic module for simple formal system example from Kaye 3.1, rules on p. 24.
-Formulas are strings of 0,1, can be interpreted as paths through a binary tree.
-Rules here resemble Post system rules in def 3.26, p. 36.
-This module seems awfully heavyweight for what little it does,
-that's a consequence of working with strings in our class-based framework.
-The real work here is done by the check methods in the classes x0,x1,y1,y.
-"""
+ #Copyright (C) 2009, 2010, 2011 Jonathan Jacky
+ 
+ # This program is free software: you can redistribute it and/or modify
+ # it under the terms of the GNU General Public License as published by
+ # the Free Software Foundation, either version 3 of the License, or
+ # (at your option) any later version.
+
+ # This program is distributed in the hope that it will be useful,
+ # but WITHOUT ANY WARRANTY; without even the implied warranty of
+ # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ # GNU General Public License for more details.
+
+ # You should have received a copy of the GNU General Public License
+ # along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ 
 
 import re
 from common import Text

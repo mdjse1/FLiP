@@ -1,12 +1,18 @@
-"""
-Natural deduction proof checker for forward proofs, in Kaye's format.
-This module manages proof state, provides proof commands, print/display, save.
-The formula module provides formula representation, matching, and substitution.
-The various logic modules define the logic languages and inference rules.
-The config modules configure this checker with various logics.
-The session modules are preludes for interactive sessions with various logics.
-The test modules are self contained, configure the checker for test case logic.
-"""
+ #Copyright (C) 2009, 2010, 2011 Jonathan Jacky
+ 
+ # This program is free software: you can redistribute it and/or modify
+ # it under the terms of the GNU General Public License as published by
+ # the Free Software Foundation, either version 3 of the License, or
+ # (at your option) any later version.
+
+ # This program is distributed in the hope that it will be useful,
+ # but WITHOUT ANY WARRANTY; without even the implied warranty of
+ # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ # GNU General Public License for more details.
+
+ # You should have received a copy of the GNU General Public License
+ # along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ 
 
 import common as logic  # minimal core, import more logic in config modules
 from formula import Formula, Term, Apply, ppfdict, ppflist, ar, ac, dr, xr, xx

@@ -1,3 +1,0 @@
-rem change FLIP_DIR to suit
-set FLIP_DIR=%USER%\FLiP-1.1
-set PYTHONPATH=%FLIP_DIR%;%PYTHONPATH%
