@@ -1,7 +1,0 @@
-include *.txt *.html *.rst *.in
-recursive-include bin *.bat flip_path plogdiff
-recursive-include notes *.txt
-recursive-include www *.html 
-recursive-include flip *.py *.txt *.ref *.bat *all_test cpath plogdiff
-
-
